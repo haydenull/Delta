@@ -11,6 +11,6 @@ public 下的文件夹代表页面路径
 修改完代码保存后会自动重新编译,但是需要手动刷新浏览器查看效果
 
 ## 前置资料
-1. ![多屏幕视频](https://github.com/amfe/article/issues/17)
-2. ![Swiper切页](https://www.swiper.com.cn/)
-3. ![动画库](https://daneden.github.io/animate.css/)
+1. [多屏幕适配](https://github.com/amfe/article/issues/17)
+2. [Swiper切页](https://www.swiper.com.cn/)
+3. [动画库](https://daneden.github.io/animate.css/)
