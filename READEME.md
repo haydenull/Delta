@@ -12,5 +12,5 @@ public 下的文件夹代表页面路径
 
 ## 前置资料
 1. ![多屏幕视频](https://github.com/amfe/article/issues/17)
-2. ![Swiper](https://www.swiper.com.cn/)
+2. ![Swiper切页](https://www.swiper.com.cn/)
 3. ![动画库](https://daneden.github.io/animate.css/)
