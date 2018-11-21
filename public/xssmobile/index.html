@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>嘻唰唰_洗车</title>
+        <meta name="description" content="电商洗车领导者">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="./lib/swiper-3.4.2.min.css">
+        <link rel="stylesheet" href="./lib/animate.min.css">
+        <script type="text/javascript" src="./lib/flexiable.js"></script>
+        <script>
+            function isMobile() {
+                var ua = window.navigator.userAgent;
+                var agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+                var flag = false;
+                for (var i = 0; i < agents.length; i++) {
+                    if (ua.indexOf(agents[i]) > 0) {
+                        flag = true;
+                        break;
+                    }
+                }
+                return flag;
+            }
+            if (!isMobile()) {
+                // window.location = 'https://api.autoxss.com/pages/guanwang/pc/pages/index.html';
+            }
+        </script>
+        <style lang="text/css">
+            .wh100 {
+                width: 100%;
+                height: 100%;
+            }
+            html, body {
+                width: 100%;
+                height: 100%;
+                font-size: 75px;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+                position: relative;
+            }
+
+            .barrage_box {
+                width: 100%;
+                height: 40%;
+                position: absolute;
+                /*top: 0;*/
+                bottom: 0;
+                background-color: rgba(0, 0, 0 , 0);
+                z-index: 1;
+            }
+            .barrageItem {
+                position: absolute;
+                white-space: nowrap;
+            }
+
+            .blue-slide {
+                background: #4390EE;
+            }
+            .red-slide {
+                background: #CA4040;
+            }
+            .orange-slide {
+                background: #FF8A01;
+            }
+            .swiper-slide {
+                /*line-height: 300px;*/
+                color: #fff;
+                font-size: 36px;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+            }
+
+            .slide1 .logo {
+                width: 2.107rem;
+                height: 1.053rem;
+                float: left;
+                margin-left: 0.8rem;
+                margin-top: 0.4rem;
+                clear: both;
+                animation-iteration-count: infinite;
+            }
+            .slide1 .textContainer {
+                clear: both;
+                padding-top: 0.2rem;
+            }
+            .slide1 .headText {
+                width: 6.507rem;
+                height: 3.72rem;
+            }
+            .pic {
+                width: 6.227rem;
+                height: 11.173rem;
+            }
+            .product div {
+                font-size: 0.5rem;
+                margin-top: 1rem;
+            }
+            .product p {
+                font-size: 0.3rem;
+                margin-bottom: 1.6rem;
+                margin-top: 0.2rem;
+            }
+
+            .slide2 {
+                background-image: url('./images/bg2.jpg');
+                background-size: cover;
+            }
+            .slide3 {
+                background-image: url('./images/bg3.jpg');
+                background-size: cover;
+            }
+            .slide4 {
+                background-image: url('./images/bg4.jpg');
+                background-size: cover;
+            }
+            .slide5 .company {
+                font-size: 0.293rem;
+                color: #000;
+                margin: 0.5rem 0;
+            }
+            .company .title {
+                font-size: 0.667rem;
+                padding: 0.4rem 0;
+            }
+            .slide5 .map {
+                height: 6.733rem;
+            }
+            .slide5 .contact {
+                font-size: 0.24rem;
+                background-color: #ff8a01;
+                text-align: left;
+                padding: 0.1rem 0 0.1rem 0.347rem;
+                color: #000;
+            }
+            .contact .title {
+                font-size: 0.347rem;
+            }
+            .slide5 .copyright {
+                background-color: #ff8a01;
+                padding: 0.667rem 0;
+                font-size: 0.267rem;
+                margin-top: 0.56rem;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="swiper-container wh100">
+            <div class="swiper-wrapper wh100">
+                <div class="swiper-slide orange-slide slide1">
+                    <img src="./images/logo.png" class="logo ani" swiper-animate-effect="hinge" swiper-animate-duration="2.6s" swiper-animate-delay="0.3s" alt="logo">
+                    <div class="textContainer ani" swiper-animate-effect="rubberBand" swiper-animate-duration="1s" swiper-animate-delay="0.6s" ><img src="./images/headText.png" class="headText" alt="headerText"></div>
+                    <img src="./images/pic1.png" class="pic ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="1.4s" alt="pic1">
+                </div>
+                <div class="swiper-slide red-slide slide2">
+                    <div class="product ani" swiper-animate-effect="bounceIn">
+                        <div>畅洗无忧</div>
+                        <p>全城不限次数免费洗车</p>
+                    </div>
+                    <img src="./images/pic2.png" class="pic ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s" alt="pic2">
+                </div>
+                <div class="swiper-slide blue-slide slide3">
+                    <div class="product ani" swiper-animate-effect="fadeInRight">
+                        <div>一键定位</div>
+                        <p>快速敏捷查询附近车行</p>
+                    </div>
+                    <img src="./images/pic3.png" class="pic ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.1s" alt="pic3">
+                </div>
+                <div class="swiper-slide blue-slide slide4">
+                    <div class="product ani" swiper-animate-effect="bounceIn">
+                        <div>全程护航</div>
+                        <p>全城随时引领您到车行</p>
+                    </div>
+                    <img src="./images/pic4.png" class="pic ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s" alt="pic4">
+                </div>
+                <div class="swiper-slide slide5">
+                    <div class="company">
+                        <p class="title">公司介绍</p>
+                        <p>嘻唰唰是国内领先的车主服务平台</p>
+                        <p>基于嘻唰唰APP，充分挖掘并强化会员、平台、联盟商家之间的价值</p>
+                        <p>专注于为车主提供优质的洗车用车服务，围绕车主洗车服务</p>
+                        <p>开展车主价值的深度挖掘</p>
+                    </div>
+                    <img class="map" src="./images/map.png" alt="map">
+                    <div class="contact">
+                        <p class="title">联系我们</p>
+                        <p>公司地址：中国·郑州郑州东站升龙广场2号楼A座7层</p>
+                        <p>公司电话：400-8523-369</p>
+                        <p>微信公众号: xishuashua2017</p>
+                    </div>
+                    <div class="copyright">
+                        <p>©2016-2020 版权所有 河南嘻唰唰网络科技有限公司</p>
+                        <p>粤ICP备 16117064号-1</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 分页器 -->
+           <div class="swiper-pagination"></div>
+        </div>
+
+        <script type="text/javascript" src="./lib/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="./lib/swiper-3.4.2.jquery.min.js"></script>
+        <script type="text/javascript" src="./lib/swiper.animate1.0.2.min.js"></script>
+        <script type="text/javascript">
+            // 初始化 swiper
+            var mySwiper = new Swiper('.swiper-container', {
+                direction: 'vertical',
+                // 分页器
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                onInit: function (swiper) {
+                    swiperAnimateCache(swiper);
+                    swiperAnimate(swiper);
+                },
+                onSlideChangeEnd: function (swiper) {
+                    swiperAnimate(swiper);
+                }
+            });
+        </script>
+    </body>
+</html>

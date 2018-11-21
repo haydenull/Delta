@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>年度绩效</title>
+  <meta name="description" content="电商洗车领导者">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="./lib/swiper-3.4.2.min.css">
+  <link rel="stylesheet" href="./lib/animate.min.css">
+  <script type="text/javascript" src="./lib/flexiable.js"></script>
+  <script type="text/javascript">
+    function isMobile() {
+      var ua = window.navigator.userAgent;
+      var agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+      var flag = false;
+      for (var i = 0; i < agents.length; i++) {
+        if (ua.indexOf(agents[i]) > 0) {
+          flag = true;
+          break;
+        }
+      }
+      return flag;
+    }
+    if (!isMobile()) {
+      window.location = 'https://api.autoxss.com/pages/guanwang/pc/pages/index.html';
+    }
+
+  </script>
+  <style lang="text/css">
+    .wh100 {
+      width: 100%;
+      height: 100%;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      font-size: 75px;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      position: relative;
+      font: Helvetica Neue,Microsoft YaHei,Tahoma,Helvetica,Arial;
+    }
+    .slide {
+      background-image: url('./images/bg.jpg');
+      background-position: 51% 10%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .content {
+      position: relative;
+    }
+    .slide .logo {
+      width: 6rem;
+      position: absolute;
+      left: .3rem;
+      bottom: 0
+    }
+    .slide .logo-container {
+      height: 2rem;
+      position: relative;
+    }
+    .slide .head-arrow {
+      width: .8rem;
+      margin-left: 1.5rem;
+    }
+    .block-container {
+      vertical-align: middle;
+      /* position: inline-block; */
+      position: absolute;
+      top: 4rem;
+    }
+    .block-container .block-1 {
+      width: .3rem;
+      height: 5rem;
+      background-color: #234070;
+      display: inline-block;
+    }
+    .block-container .block-2 {
+      width: .1rem;
+      height: 3rem;
+      background-color: #234070;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+
+    /* slide1 封面 start */
+    .slide1 .content {
+      background-image: url('./images/building.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 100%;
+      color: #fff;
+      text-align: center;
+      position: relative;
+    }
+    .slide1 .content h1 {
+      font-size: 1.2rem;
+      padding-top: 2.8rem;
+    }
+    .slide1 .content h2 {
+      font-size: .6rem;
+      border-top: 2px solid #fff;
+      display: inline-block;
+      padding-top: .2rem;
+    }
+    /* slide1 封面 end */
+
+    /* slide2 目录 start */
+    .index-list-title {
+      font-size: .8rem;
+      position: absolute;
+      top: 5rem;
+    }
+    .index-list-title img {
+      width: 4rem;
+    }
+    .index-list-title span {
+      position: absolute;
+      top: 1rem;
+      left: 1.5rem;
+    }
+
+    .ul div {
+      display: inline-block;
+    }
+    .li {
+      
+    }
+    .li .li-index-container {
+      background-color: #BDBFC0;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 100%;
+      overflow: hidden;
+    }
+    .li-index-container div {
+      background-color: #234070;
+      width: .6rem;
+      height: .6rem;
+      border-radius: 100%;
+      overflow: hidden;
+      color: #fff;
+      display: inline-block;
+    }
+    .index-text {
+      width: 3rem;
+      height: 1rem;
+      background-color: #BDBFC0;
+      display: inline-block;
+    }
+
+    /* slide2 目录 end */
+  </style>
+</head>
+
+<body>
+  <div class="swiper-container wh100">
+    <div class="swiper-wrapper wh100">
+
+      <!-- slide1 封面 start -->
+      <div class="swiper-slide slide slide1">
+        <div class="logo-container">
+          <img src="./images/logo.png" class="logo" alt="logo">
+        </div>
+        <div style="height: .6rem;"></div>
+        <div class="content">
+          <h1>总结2018</h1>
+          <h2>五矿国际2018年度绩效考核</h2>
+        </div>
+      </div>
+      <!-- slide1 封面 end -->
+
+      <!-- slide2 目录 start -->
+      <div class="swiper-slide slide slide2">
+        <div class="logo-container">
+          <img src="./images/logo.png" class="logo" alt="logo">
+        </div>
+        <div class="content">
+          <!-- 顶部三角动画 -->
+          <img src="./images/green-arrow.png" class="head-arrow" alt="green-arrow">
+          <div class="block-container">
+            <span class="block-1"></span>
+            <span class="block-2"></span>
+            <span class="block-2"></span>
+          </div>
+
+          <!-- 内容区 -->
+          <div class="content-text">
+            <div class="index-list-title">
+              <img src="./images/circle-1.png" alt="">
+              <span>目录</span>
+            </div>
+            <!-- ul -->
+            <div class="ul">
+              <!-- li -->
+              <div class="li">
+                <div class="li-index-container">
+                  <div>1</div>
+                </div>
+                <span class="index-text">目录1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- slide2 目录 end -->
+
+      <!-- <div class="swiper-slide slide orange-slide slide1">
+        <img src="./images/logo.png" class="logo ani" swiper-animate-effect="hinge" swiper-animate-duration="2.6s"
+          swiper-animate-delay="0.3s" alt="logo">
+        <div class="textContainer ani" swiper-animate-effect="rubberBand" swiper-animate-duration="1s"
+          swiper-animate-delay="0.6s"><img src="./images/headText.png" class="headText" alt="headerText"></div>
+        <img src="./images/pic1.png" class="pic ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s"
+          swiper-animate-delay="1.4s" alt="pic1">
+      </div> -->
+
+    </div>
+    <!-- 分页器 -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <script type="text/javascript" src="./lib/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="./lib/swiper-3.4.2.jquery.min.js"></script>
+  <script type="text/javascript" src="./lib/swiper.animate1.0.2.min.js"></script>
+  <script type="text/javascript">
+    // 初始化 swiper
+    var mySwiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+      // 分页器
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      onInit: function (swiper) {
+        swiperAnimateCache(swiper);
+        swiperAnimate(swiper);
+      },
+      onSlideChangeEnd: function (swiper) {
+        swiperAnimate(swiper);
+      }
+    });
+    $('.download-btn').click(function () {
+      if (isAndroid()) {
+        window.location.href = 'http://app.qq.com/#id=detail&appid=1105830216';
+      } else {
+        window.location.href = 'https://itunes.apple.com/cn/app/嘻唰唰车主端/id1193479954?mt=8';
+      }
+    });
+    // 判断是否是安卓浏览器
+    function isAndroid() {
+      var ua = navigator.userAgent;
+      var flag = false;
+      if (ua.indexOf('Android') > -1 || ua.indexOf('Adr') > -1) {
+        flag = true;
+      }
+      return flag;
+    }
+
+  </script>
+</body>
+
+</html>
