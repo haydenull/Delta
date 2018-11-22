@@ -10,149 +10,24 @@
   <link rel="stylesheet" href="./lib/animate.min.css">
   <script type="text/javascript" src="./lib/flexiable.js"></script>
   <script type="text/javascript">
-    function isMobile() {
-      var ua = window.navigator.userAgent;
-      var agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
-      var flag = false;
-      for (var i = 0; i < agents.length; i++) {
-        if (ua.indexOf(agents[i]) > 0) {
-          flag = true;
-          break;
-        }
-      }
-      return flag;
-    }
-    if (!isMobile()) {
-      window.location = 'https://api.autoxss.com/pages/guanwang/pc/pages/index.html';
-    }
+    // function isMobile() {
+    //   var ua = window.navigator.userAgent;
+    //   var agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+    //   var flag = false;
+    //   for (var i = 0; i < agents.length; i++) {
+    //     if (ua.indexOf(agents[i]) > 0) {
+    //       flag = true;
+    //       break;
+    //     }
+    //   }
+    //   return flag;
+    // }
+    // if (!isMobile()) {
+    //   window.location = 'https://api.autoxss.com/pages/guanwang/pc/pages/index.html';
+    // }
 
   </script>
-  <style lang="text/css">
-    .wh100 {
-      width: 100%;
-      height: 100%;
-    }
-    html, body {
-      width: 100%;
-      height: 100%;
-      font-size: 75px;
-      padding: 0;
-      margin: 0;
-      overflow: hidden;
-      position: relative;
-      font: Helvetica Neue,Microsoft YaHei,Tahoma,Helvetica,Arial;
-    }
-    .slide {
-      background-image: url('./images/bg.jpg');
-      background-position: 51% 10%;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    .content {
-      position: relative;
-    }
-    .slide .logo {
-      width: 6rem;
-      position: absolute;
-      left: .3rem;
-      bottom: 0
-    }
-    .slide .logo-container {
-      height: 2rem;
-      position: relative;
-    }
-    .slide .head-arrow {
-      width: .8rem;
-      margin-left: 1.5rem;
-    }
-    .block-container {
-      vertical-align: middle;
-      /* position: inline-block; */
-      position: absolute;
-      top: 4rem;
-    }
-    .block-container .block-1 {
-      width: .3rem;
-      height: 5rem;
-      background-color: #234070;
-      display: inline-block;
-    }
-    .block-container .block-2 {
-      width: .1rem;
-      height: 3rem;
-      background-color: #234070;
-      display: inline-block;
-      margin-bottom: 1rem;
-    }
-
-    /* slide1 封面 start */
-    .slide1 .content {
-      background-image: url('./images/building.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 100%;
-      color: #fff;
-      text-align: center;
-      position: relative;
-    }
-    .slide1 .content h1 {
-      font-size: 1.2rem;
-      padding-top: 2.8rem;
-    }
-    .slide1 .content h2 {
-      font-size: .6rem;
-      border-top: 2px solid #fff;
-      display: inline-block;
-      padding-top: .2rem;
-    }
-    /* slide1 封面 end */
-
-    /* slide2 目录 start */
-    .index-list-title {
-      font-size: .8rem;
-      position: absolute;
-      top: 5rem;
-    }
-    .index-list-title img {
-      width: 4rem;
-    }
-    .index-list-title span {
-      position: absolute;
-      top: 1rem;
-      left: 1.5rem;
-    }
-
-    .ul div {
-      display: inline-block;
-    }
-    .li {
-      
-    }
-    .li .li-index-container {
-      background-color: #BDBFC0;
-      width: 1rem;
-      height: 1rem;
-      border-radius: 100%;
-      overflow: hidden;
-    }
-    .li-index-container div {
-      background-color: #234070;
-      width: .6rem;
-      height: .6rem;
-      border-radius: 100%;
-      overflow: hidden;
-      color: #fff;
-      display: inline-block;
-    }
-    .index-text {
-      width: 3rem;
-      height: 1rem;
-      background-color: #BDBFC0;
-      display: inline-block;
-    }
-
-    /* slide2 目录 end */
-  </style>
+  <link rel="stylesheet" href="./lib/index.css">
 </head>
 
 <body>
@@ -166,8 +41,11 @@
         </div>
         <div style="height: .6rem;"></div>
         <div class="content">
-          <h1>总结2018</h1>
-          <h2>五矿国际2018年度绩效考核</h2>
+          <img src="./images/slide1-top-pg.png" class="top-bar-img" alt="">
+          <div class="title-container">
+            <h1>总结2018,展望2019</h1>
+            <h2>五矿国际2018年度绩效考核</h2>
+          </div>
         </div>
       </div>
       <!-- slide1 封面 end -->
@@ -175,7 +53,8 @@
       <!-- slide2 目录 start -->
       <div class="swiper-slide slide slide2">
         <div class="logo-container">
-          <img src="./images/logo.png" class="logo" alt="logo">
+          <img src="./images/logo.png" class="logo logo-normal" alt="logo">
+          <img src="./images/header-img.png" class="logo-right" alt="">
         </div>
         <div class="content">
           <!-- 顶部三角动画 -->
@@ -195,11 +74,30 @@
             <!-- ul -->
             <div class="ul">
               <!-- li -->
-              <div class="li">
-                <div class="li-index-container">
-                  <div>1</div>
-                </div>
+              <div class="li li1">
+                <img src="./images/index-bg.png" alt="">
+                <span class="index-idx">1</span>
                 <span class="index-text">目录1</span>
+              </div>
+              <div class="li li2">
+                <img src="./images/index-bg.png" alt="">
+                <span class="index-idx">2</span>
+                <span class="index-text">目录2</span>
+              </div>
+              <div class="li li3">
+                <img src="./images/index-bg.png" alt="">
+                <span class="index-idx">3</span>
+                <span class="index-text">目录3</span>
+              </div>
+              <div class="li li4">
+                <img src="./images/index-bg.png" alt="">
+                <span class="index-idx">4</span>
+                <span class="index-text">目录4</span>
+              </div>
+              <div class="li li5">
+                <img src="./images/index-bg.png" alt="">
+                <span class="index-idx">5</span>
+                <span class="index-text">目录5</span>
               </div>
             </div>
           </div>
@@ -239,22 +137,6 @@
         swiperAnimate(swiper);
       }
     });
-    $('.download-btn').click(function () {
-      if (isAndroid()) {
-        window.location.href = 'http://app.qq.com/#id=detail&appid=1105830216';
-      } else {
-        window.location.href = 'https://itunes.apple.com/cn/app/嘻唰唰车主端/id1193479954?mt=8';
-      }
-    });
-    // 判断是否是安卓浏览器
-    function isAndroid() {
-      var ua = navigator.userAgent;
-      var flag = false;
-      if (ua.indexOf('Android') > -1 || ua.indexOf('Adr') > -1) {
-        flag = true;
-      }
-      return flag;
-    }
 
   </script>
 </body>
