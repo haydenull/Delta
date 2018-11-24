@@ -68,6 +68,13 @@ body {
   top: 4rem;
 }
 
+.slide .creative {
+  width: 7rem;
+  left: 15%;
+  position: absolute;
+  top: 5.5rem;
+}
+
 .slide .head-arrow {
   width: .8rem;
   margin-left: 1.5rem;
