@@ -85,6 +85,15 @@ body {
   font-size: .4rem;
   text-align: center;
 }
+.content-text .p-title {
+  font-size: .4rem;
+  border-left: 4px solid #3365b7;
+  padding-left: .2rem;
+  margin: .2rem 0;
+}
+.content-text p {
+  font-size: .3rem;
+}
 
 .block-container {
   vertical-align: middle;
