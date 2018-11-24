@@ -86,6 +86,68 @@ slide4_1.setOption(option);
 
 
 // 基于准备好的dom，初始化echarts实例
+var slide8_1 = echarts.init(document.getElementById('slide8-1'));
+// 指定图表的配置项和数据
+var data = [{
+  name: '部门总经理',
+  children: [{
+      name: '工作业绩',
+      value: 15,
+      children: [{
+          name: '效益类',
+          value: 5
+      }, {
+          name: '运营类',
+          value: 5,
+      }, {
+          name: '战略类',
+          value: 5
+      }]
+  }, {
+      name: '组织类',
+      children: [{
+          name: '自身建设',
+          value: 4
+      }, {
+        name: '沟通协作',
+        value: 4
+    }]
+  }, {
+      name: '约束类',
+      value: 10,
+      children: [{
+          name: '党风廉政建设等',
+          value: 10,
+      }]
+  }, {
+      name: '能力素质',
+      value: 10,
+  }]
+}];
+
+var option = {
+  visualMap: {
+      type: 'continuous',
+      min: 0,
+      max: 10,
+      inRange: {
+          color: ['#2D5F73', '#538EA6', '#F2D1B3', '#F2B8A2', '#F28C8C']
+      }
+  },
+  series: {
+      type: 'sunburst',
+      data: data,
+      radius: [0, '90%'],
+      label: {
+          rotate: 'tangential'
+      }
+  }
+};
+// 使用刚指定的配置项和数据显示图表。
+slide8_1.setOption(option);
+
+
+// 基于准备好的dom，初始化echarts实例
 var slide9_1 = echarts.init(document.getElementById('slide9-1'));
 // 指定图表的配置项和数据
 var option = {
