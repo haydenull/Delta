@@ -61,6 +61,20 @@ body {
   bottom: 0
 }
 
+.slide .core {
+  width: 10rem;
+  left: 0%;
+  position: absolute;
+  top: 4rem;
+}
+
+.slide .creative {
+  width: 7rem;
+  left: 15%;
+  position: absolute;
+  top: 5.5rem;
+}
+
 .slide .head-arrow {
   width: .8rem;
   margin-left: 1.5rem;
@@ -91,12 +105,14 @@ body {
   font-size: .4rem;
   text-align: center;
 }
+
 .content-text .p-title {
   font-size: .4rem;
   border-left: 4px solid #3365b7;
   padding-left: .2rem;
   margin: .2rem 0;
 }
+
 .content-text p {
   font-size: .3rem;
 }
@@ -363,7 +379,7 @@ body {
   position: absolute;
   left: 15%;
   width: 70%;
-  top: 2rem;
+  top: 3rem;
   height: fit-content;
   line-height: 1rem;
   font-size: .4rem;
@@ -378,7 +394,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   left: 15%;
-  top: 2.8rem;
+  top: 3.8rem;
   width: 70%;
   height: fit-content;
   line-height: 1rem;
@@ -394,7 +410,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   left: 15%;
-  top: 3.6rem;
+  top: 4.6rem;
   width: 70%;
   height: fit-content;
   line-height: 1rem;
@@ -410,7 +426,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   left: 15%;
-  top: 4.4rem;
+  top: 5.4rem;
   width: 70%;
   height: fit-content;
   line-height: 1rem;
@@ -426,7 +442,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   left: 15%;
-  top: 5.2rem;
+  top: 6.2rem;
   width: 70%;
   height: fit-content;
   line-height: 1rem;
@@ -442,7 +458,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   left: 15%;
-  top: 6rem;
+  top: 7rem;
   width: 70%;
   height: fit-content;
   line-height: 1rem;
@@ -457,7 +473,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   left: 15%;
-  top: 6.8rem;
+  top: 7.8rem;
   width: 70%;
   height: fit-content;
   line-height: 1rem;
@@ -473,7 +489,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   left: 15%;
-  top: 7.6rem;
+  top: 8.6rem;
   width: 70%;
   height: fit-content;
   line-height: 1rem;
@@ -489,7 +505,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   left: 15%;
-  top: 8.4rem;
+  top: 9.4rem;
   width: 70%;
   height: fit-content;
   line-height: 1rem;
