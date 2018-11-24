@@ -1,5 +1,3 @@
-
-
 // 基于准备好的dom，初始化echarts实例
 var slide4_1 = echarts.init(document.getElementById('slide4-1'));
 // 指定图表的配置项和数据
@@ -431,3 +429,321 @@ var option = {
 };
 // 使用刚指定的配置项和数据显示图表。
 slide10_2.setOption(option);
+
+
+// 基于准备好的dom，初始化echarts实例
+var slide7_1 = echarts.init(document.getElementById('slide7-1'));
+// 指定图表的配置项和数据
+var option = {
+
+  series: [{
+    name: '部门总经理',
+    type: 'pie',
+    radius: ['100%', '0%'],
+    avoidLabelOverlap: false,
+    label: {
+      normal: {
+        show: true,
+        position: 'inside'
+      },
+      emphasis: {
+        show: true,
+        textStyle: {
+          fontSize: '30',
+          fontWeight: 'bold'
+        }
+      }
+    },
+    labelLine: {
+      normal: {
+        show: false
+      }
+    },
+    animationType: 'expansion',
+    animationDuration : 1500,
+    animationDelay :0,
+    data: [{
+        value: 20,
+        name: '绩效管理工作组\n20%'
+      },
+      {
+        value: 30,
+        name: '公司总经理\n30%'
+      },
+      {
+        value: 20,
+        name: '其他班子成员\n20%'
+      },
+      {
+        value: 30,
+        name: '公司分管副总\n30%'
+      }
+    ]
+  }]
+};
+
+// 使用刚指定的配置项和数据显示图表。
+slide7_1.setOption(option);
+
+// 基于准备好的dom，初始化echarts实例
+var slide7_2 = echarts.init(document.getElementById('slide7-2'));
+// 指定图表的配置项和数据
+var option = {
+
+  series: [{
+    name: '部门副总经理',
+    type: 'pie',
+    radius: ['100%', '0%'],
+    avoidLabelOverlap: false,
+    label: {
+      normal: {
+        show: true,
+        position: 'inside'
+      },
+      emphasis: {
+        show: true,
+        textStyle: {
+          fontSize: '30',
+          fontWeight: 'bold'
+        }
+      }
+    },
+    labelLine: {
+      normal: {
+        show: false
+      }
+    },
+    animationType: 'expansion',
+    animationDuration : 1500,
+    animationDelay :1500,
+    data: [
+
+      {
+        value: 60,
+        name: '部门副总经理\n60%'
+      },
+
+      {
+        value: 40,
+        name: '公司分管副总\n40%'
+      }
+    ]
+  }]
+};
+
+// 使用刚指定的配置项和数据显示图表。
+slide7_2.setOption(option);
+
+// 基于准备好的dom，初始化echarts实例
+var slide7_3 = echarts.init(document.getElementById('slide7-3'));
+// 指定图表的配置项和数据
+var option = {
+
+  series: [{
+    name: '专业序列员工',
+    type: 'pie',
+    radius: ['100%', '0%'],
+    avoidLabelOverlap: false,
+    label: {
+      normal: {
+        show: true,
+        position: 'inside'
+      },
+      emphasis: {
+        show: true,
+        textStyle: {
+          fontSize: '30',
+          fontWeight: 'bold'
+        }
+      }
+    },
+    labelLine: {
+      normal: {
+        show: false
+      }
+    },
+    animationType: 'expansion',
+    animationDuration : 1500,
+    animationDelay :3000,
+    data: [
+
+      {
+        value: 40,
+        name: '部门总经理\n40%'
+      },
+
+      {
+        value: 40,
+        name: '部门分管副总\n40%'
+      }
+    ]
+  }]
+};
+
+// 使用刚指定的配置项和数据显示图表。
+slide7_3.setOption(option);
+
+
+// 基于准备好的dom，初始化echarts实例
+var slide8_1 = echarts.init(document.getElementById('slide8-1'));
+// 指定图表的配置项和数据
+var option = {
+
+  series: [{
+    name: '部门总经理',
+    type: 'pie',
+    radius: ['100%', '0%'],
+    avoidLabelOverlap: false,
+    label: {
+      normal: {
+        show: true,
+        position: 'inside'
+      },
+      emphasis: {
+        show: true,
+        textStyle: {
+          fontSize: '30',
+          fontWeight: 'bold'
+        }
+      }
+    },
+    labelLine: {
+      normal: {
+        show: false
+      }
+    },
+    animationType: 'expansion',
+    animationDuration : 1500,
+    animationDelay :0,
+    data: [{
+        value: 30,
+        name: '部门内所有下级\n30%'
+      },
+      {
+        value: 50,
+        name: '公司总经理、分管副总、其他领导\n50%'
+      },
+      {
+        value: 20,
+        name: '公司同级人员\n20%'
+      }
+    ]
+  }]
+};
+
+// 使用刚指定的配置项和数据显示图表。
+slide8_1.setOption(option);
+
+// 基于准备好的dom，初始化echarts实例
+var slide8_2 = echarts.init(document.getElementById('slide8-2'));
+// 指定图表的配置项和数据
+var option = {
+
+  series: [{
+    name: '部门副总经理',
+    type: 'pie',
+    radius: ['100%', '0%'],
+    avoidLabelOverlap: false,
+    label: {
+      normal: {
+        show: true,
+        position: 'inside'
+      },
+      emphasis: {
+        show: true,
+        textStyle: {
+          fontSize: '30',
+          fontWeight: 'bold'
+        }
+      }
+    },
+    labelLine: {
+      normal: {
+        show: false
+      }
+    },
+    animationType: 'expansion',
+    animationDuration : 1500,
+    animationDelay :1500,
+    data: [{
+        value: 30,
+        name: '部门内所有下级\n30%'
+      },
+      {
+        value: 30,
+        name: '部门总经理\n30%'
+      },
+      {
+        value: 20,
+        name: '部门同级人员\n20%'
+      },
+      {
+        value: 20,
+        name: '公司分管副总\n20%'
+      }
+
+    ]
+  }]
+};
+
+// 使用刚指定的配置项和数据显示图表。
+slide8_2.setOption(option);
+
+// 基于准备好的dom，初始化echarts实例
+var slide8_3 = echarts.init(document.getElementById('slide8-3'));
+// 指定图表的配置项和数据
+var option = {
+
+  series: [{
+    name: '专业序列员工',
+    type: 'pie',
+    radius: ['100%', '0%'],
+    avoidLabelOverlap: false,
+    label: {
+      normal: {
+        show: true,
+        position: 'inside'
+      },
+      emphasis: {
+        show: true,
+        textStyle: {
+          fontSize: '30',
+          fontWeight: 'bold'
+        }
+      }
+    },
+    labelLine: {
+      normal: {
+        show: false
+      }
+    },
+    animationType: 'expansion',
+    animationDuration : 1500,
+    animationDelay :3000,
+    data: [
+
+      {
+        value: 40,
+        name: '部门内其他人员\n40%'
+      },
+
+      {
+        value: 20,
+        name: '部门总经理\n20%'
+      },
+
+      {
+        value: 10,
+        name: '部门其他关键岗位\n10%'
+      },
+
+      {
+        value: 30,
+        name: '部门分管副总/总监\n30%'
+      }
+    ]
+  }]
+};
+
+// 使用刚指定的配置项和数据显示图表。
+slide8_3.setOption(option);
