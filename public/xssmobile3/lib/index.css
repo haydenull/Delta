@@ -220,6 +220,8 @@ body {
 
 /* slide2 目录 end */
 
+
+/* slide3 目录 start */
 .timeline {
   height: 10rem;
   width: .06rem;
@@ -283,3 +285,154 @@ body {
 .timeline .timeline-item6 {
   top: 7.5rem;
 }
+
+/* slide3 目录 end */
+
+/* slide11 目录 start */
+
+
+.slide11 .content-text .content-1 c1 {
+  /* background-image: url('../images/title-text-bg.png'); */
+  background-size: 100%;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  top: 2rem;
+  height: fit-content;
+  line-height: 1rem;
+  font-size: .4rem;
+  text-align: center;
+
+}
+
+.slide11 .content-text .content-1 c2 {
+  /* background-image: url('../images/title-text-bg.png'); */
+  background-size: 100%;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15%;
+  top: 2.8rem;
+  width: 70%;
+  height: fit-content;
+  line-height: 1rem;
+  font-size: .4rem;
+  text-align: center;
+
+}
+
+.slide11 .content-text .content-1 c3 {
+  /* background-image: url('../images/title-text-bg.png'); */
+  background-size: 100%;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15%;
+  top: 3.6rem;
+  width: 70%;
+  height: fit-content;
+  line-height: 1rem;
+  font-size: .4rem;
+  text-align: center;
+
+}
+
+.slide11 .content-text .content-1 c4 {
+  /* background-image: url('../images/title-text-bg.png'); */
+  background-size: 100%;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15%;
+  top: 4.4rem;
+  width: 70%;
+  height: fit-content;
+  line-height: 1rem;
+  font-size: .4rem;
+  text-align: center;
+
+}
+
+.slide11 .content-text .content-1 c5 {
+  /* background-image: url('../images/title-text-bg.png'); */
+  background-size: 100%;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15%;
+  top: 5.2rem;
+  width: 70%;
+  height: fit-content;
+  line-height: 1rem;
+  font-size: .4rem;
+  text-align: center;
+
+}
+
+.slide11 .content-text .content-1 c6 {
+  /* background-image: url('../images/title-text-bg.png'); */
+  background-size: 100%;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15%;
+  top: 6rem;
+  width: 70%;
+  height: fit-content;
+  line-height: 1rem;
+  font-size: .4rem;
+  text-align: center;
+}
+
+.slide11 .content-text .content-1 c7 {
+  /* background-image: url('../images/title-text-bg.png'); */
+  background-size: 100%;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15%;
+  top: 6.8rem;
+  width: 70%;
+  height: fit-content;
+  line-height: 1rem;
+  font-size: .4rem;
+  text-align: center;
+
+}
+
+.slide11 .content-text .content-1 c8 {
+  /* background-image: url('../images/title-text-bg.png'); */
+  background-size: 100%;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15%;
+  top: 7.6rem;
+  width: 70%;
+  height: fit-content;
+  line-height: 1rem;
+  font-size: .4rem;
+  text-align: center;
+
+}
+
+.slide11 .content-text .content-1 c9 {
+  /* background-image: url('../images/title-text-bg.png'); */
+  background-size: 100%;
+  background-color: bisque;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 15%;
+  top: 8.4rem;
+  width: 70%;
+  height: fit-content;
+  line-height: 1rem;
+  font-size: .4rem;
+  text-align: center;
+
+}
+
+
+/* slide11 目录 end */
