@@ -79,10 +79,10 @@ body {
 }
 
 .slide .creative {
-  width: 7rem;
-  left: 15%;
+  width: 5rem;
+  left: 25%;
   position: absolute;
-  top: 5.5rem;
+  top: 6.5rem;
 }
 
 .slide .head-arrow {
