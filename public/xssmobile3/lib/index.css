@@ -308,6 +308,50 @@ body {
 
 /* slide3 目录 end */
 
+/* slide3 考核创新与优化1 */
+.slide3-chart h2 {
+  font-size: 14px;
+  margin-top: 4rem;
+  width: 100%;
+  text-align: center;
+}
+.slide3-chart .container {
+  position: relative;
+  height: 1px;
+  background-color: #000;
+  margin: 3.4rem .5rem 0 .5rem;
+}
+.slide3-chart .chart-block {
+  width: 1.2rem;
+  background-color: #2AADFD;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.slide3-chart .chart-block span {
+  position: absolute;
+  color: #000;
+  width: 3rem;
+  left: -1rem;
+  top: 3.6rem;
+  text-align: center;
+  font-size: 12px;
+}
+.slide3-chart .chart-20 {
+  height: 2rem;
+  line-height: 2rem;
+  top: -1rem;
+  left: 25%;
+}
+.slide3-chart .chart-60 {
+  height: 6rem;
+  line-height: 6rem;
+  background-color: #3365b7;
+  top: -3rem;
+  left: 65%;
+}
+
 /* slide11 目录 start */
 
 

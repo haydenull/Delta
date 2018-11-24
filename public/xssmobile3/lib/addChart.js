@@ -1,3 +1,5 @@
+
+
 // 基于准备好的dom，初始化echarts实例
 var slide4_1 = echarts.init(document.getElementById('slide4-1'));
 // 指定图表的配置项和数据
