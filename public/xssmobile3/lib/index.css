@@ -2,7 +2,9 @@
   width: 100%;
   height: 100%;
 }
-html, body {
+
+html,
+body {
   width: 100%;
   height: 100%;
   font-size: 75px;
@@ -10,76 +12,89 @@ html, body {
   margin: 0;
   overflow: hidden;
   position: relative;
-  font: Helvetica Neue,Microsoft YaHei,Tahoma,Helvetica,Arial;
+  font: Helvetica Neue, Microsoft YaHei, Tahoma, Helvetica, Arial;
 }
+
 .slide {
   background-image: url('../images/bg.jpg');
   background-position: 51% 10%;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .content {
   position: relative;
   height: 100%;
 }
+
 .slide .logo {
   width: 6rem;
   position: absolute;
   left: .3rem;
   bottom: 0
 }
+
 .slide .logo-normal {
   width: 5rem;
 }
+
 .slide .logo-container {
   height: 2rem;
   position: relative;
 }
+
 .slide .logo-right {
   width: 4.6rem;
   position: absolute;
   right: 0;
   bottom: 0
 }
+
 .slide .head-arrow {
   width: .8rem;
   margin-left: 1.5rem;
 }
+
 .slide .content-text {
   height: 100%;
   margin: 0 1rem;
 }
+
 .slide .content-text .header {
   height: 2rem;
   background-image: url('../images/title-img.png');
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 .slide .content-text .header h2 {
   background-image: url('../images/title-text-bg.png');
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
   left: 24%;
-  top: 1.1rem;
+  top: .2rem;
   width: 50%;
   height: 1rem;
   line-height: 1rem;
   font-size: .4rem;
   text-align: center;
 }
+
 .block-container {
   vertical-align: middle;
   /* position: inline-block; */
   position: absolute;
   top: 4rem;
 }
+
 .block-container .block-1 {
   width: .3rem;
   height: 5rem;
   background-color: #3365b7;
   display: inline-block;
 }
+
 .block-container .block-2 {
   width: .1rem;
   height: 3rem;
@@ -99,30 +114,36 @@ html, body {
   position: relative;
   overflow: hidden;
 }
+
 .slide1 .content h1 {
   font-size: .8rem;
   /* padding-top: 2.8rem; */
 }
+
 .slide1 .title-container {
   margin-top: 1.6rem;
   overflow: hidden;
 }
+
 .slide .title-container {
   background-image: url('../images/title-bg.png');
   padding: 1rem 0;
 }
+
 .slide1 .content h2 {
   font-size: .6rem;
   border-top: 2px solid #fff;
   display: inline-block;
   padding-top: .2rem;
 }
+
 .slide1 .top-bar-img {
   position: absolute;
   height: .2rem;
   width: 100%;
   left: 0;
 }
+
 /* slide1 封面 end */
 
 /* slide2 目录 start */
@@ -132,9 +153,11 @@ html, body {
   top: 5rem;
   left: -0.4rem;
 }
+
 .index-list-title img {
   width: 4rem;
 }
+
 .index-list-title span {
   position: absolute;
   top: 1.1rem;
@@ -147,40 +170,49 @@ html, body {
   top: 6rem;
   left: 3rem;
 }
+
 .li {
   width: 6rem;
   position: absolute;
 }
-.li img{
+
+.li img {
   width: 100%;
 }
+
 .li span {
   position: absolute;
 }
+
 .li .index-idx {
   color: #fff;
   font-size: .6rem;
   top: .33rem;
   left: .55rem;
 }
+
 .li .index-text {
   color: #000;
   font-size: .56rem;
   top: .34rem;
   left: 2.5rem;
 }
+
 .li1 {
   bottom: 1.6rem;
   left: -1.3rem;
 }
+
 .li2 {
   bottom: 0;
   left: -0.3rem;
 }
+
 .li4 {
   top: 1.6rem;
   left: -0.3rem;
 }
+
 .li5 {
   top: 3.3rem;
   left: -1.3rem;
@@ -196,11 +228,13 @@ html, body {
   left: 4.6rem;
   font-size: .3rem;
 }
+
 .timeline .timeline-item {
   height: 1rem;
   position: absolute;
   left: -0.12rem;
 }
+
 .timeline .time {
   width: 2.6rem;
   height: 1rem;
@@ -209,6 +243,7 @@ html, body {
   top: 0;
   text-align: right;
 }
+
 .timeline .desc {
   width: 3rem;
   height: 1rem;
@@ -216,6 +251,7 @@ html, body {
   left: 1rem;
   top: 0;
 }
+
 .timeline .block-separator {
   width: .3rem;
   height: .3rem;
@@ -227,18 +263,23 @@ html, body {
 .timeline .timeline-item1 {
   top: 0;
 }
+
 .timeline .timeline-item2 {
   top: 1.5rem;
 }
+
 .timeline .timeline-item3 {
   top: 3rem;
 }
+
 .timeline .timeline-item4 {
   top: 4.5rem;
 }
+
 .timeline .timeline-item5 {
   top: 6rem;
 }
+
 .timeline .timeline-item6 {
   top: 7.5rem;
 }
