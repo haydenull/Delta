@@ -20,6 +20,7 @@ html, body {
 }
 .content {
   position: relative;
+  height: 100%;
 }
 .slide .logo {
   width: 6rem;
@@ -43,6 +44,10 @@ html, body {
 .slide .head-arrow {
   width: .8rem;
   margin-left: 1.5rem;
+}
+.slide .content-text {
+  height: 100%;
+  margin: 0 1rem;
 }
 .block-container {
   vertical-align: middle;
