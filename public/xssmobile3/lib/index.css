@@ -61,6 +61,13 @@ body {
   bottom: 0
 }
 
+.slide .core {
+  width: 10rem;
+  left: 0%;
+  position: absolute;
+  top: 4rem;
+}
+
 .slide .head-arrow {
   width: .8rem;
   margin-left: 1.5rem;
@@ -91,12 +98,14 @@ body {
   font-size: .4rem;
   text-align: center;
 }
+
 .content-text .p-title {
   font-size: .4rem;
   border-left: 4px solid #3365b7;
   padding-left: .2rem;
   margin: .2rem 0;
 }
+
 .content-text p {
   font-size: .3rem;
 }
