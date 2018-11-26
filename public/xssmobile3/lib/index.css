@@ -191,8 +191,10 @@ body {
 /* slide1 封面 start */
 .slide1 .content {
   background-image: url('../images/building.png');
+  /* background-size: cover; */
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
   height: 100%;
   color: #fff;
   text-align: center;
