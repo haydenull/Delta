@@ -14,7 +14,7 @@
 
 }
 
-#slide10-1 {
+/* #slide10-1 {
   width: 100%;
   height: 7rem;
 }
@@ -22,7 +22,7 @@
 #slide10-2 {
   width: 100%;
   height: 4.5rem;
-}
+} */
 
 #slide7-1 {
   width: 100%;
@@ -89,6 +89,9 @@ body {
   left: .3rem;
   bottom: 0
 }
+.slide .img-container {
+  text-align: center;
+}
 
 .slide .logo-normal {
   width: 5rem;
@@ -107,18 +110,19 @@ body {
 }
 
 .slide .core {
-  width: 10rem;
+  /* width: 10rem;
   left: 0%;
   position: absolute;
-  top: 4rem;
+  top: 4rem; */
+  width: 100%;
 }
 
-.slide .creative {
+/* .slide .creative {
   width: 5rem;
   left: 25%;
   position: absolute;
   top: 6.5rem;
-}
+} */
 
 .slide .head-arrow {
   width: .8rem;
@@ -304,7 +308,7 @@ body {
 
 /* slide3 目录 start */
 .timeline {
-  height: 10rem;
+  height: 8.4rem;
   width: .06rem;
   background: #3365b7;
   position: absolute;
@@ -372,7 +376,7 @@ body {
 /* slide3 考核创新与优化1 */
 .slide3-chart h2 {
   font-size: 14px;
-  margin-top: 4rem;
+  margin-top: 3.2rem;
   width: 100%;
   text-align: center;
 }
@@ -395,169 +399,118 @@ body {
   color: #000;
   width: 3rem;
   left: -1rem;
-  top: 3.6rem;
+  top: 2.9rem;
   text-align: center;
   font-size: 12px;
 }
 .slide3-chart .chart-20 {
-  height: 2rem;
-  line-height: 2rem;
-  top: -1rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  top: -0.9rem;
   left: 25%;
 }
 .slide3-chart .chart-60 {
-  height: 6rem;
-  line-height: 6rem;
+  height: 5rem;
+  line-height: 5rem;
   background-color: #3365b7;
-  top: -3rem;
+  top: -2.5rem;
   left: 65%;
 }
 
 /* slide11 目录 start */
 
-
-.slide11 .content-text .content-1 c1 {
-  /* background-image: url('../images/title-text-bg.png'); */
-  background-size: 100%;
-  background-color: bisque;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15%;
-  width: 70%;
-  top: 3rem;
-  height: fit-content;
-  line-height: 1rem;
-  font-size: .4rem;
-  text-align: center;
-
+/* slide4 start */
+.slide4 .content-text>img{
+  width: 100%;
+  margin-top: .6rem;
 }
+/* slide4 end */
 
-.slide11 .content-text .content-1 c2 {
-  /* background-image: url('../images/title-text-bg.png'); */
-  background-size: 100%;
-  background-color: bisque;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15%;
-  top: 3.8rem;
+/* slide5 start */
+.slide5 .content-show .img-container>img{
   width: 70%;
-  height: fit-content;
-  line-height: 1rem;
-  font-size: .4rem;
-  text-align: center;
-
+  margin-top: .6rem;
 }
+/* slide5 end */
 
-.slide11 .content-text .content-1 c3 {
-  /* background-image: url('../images/title-text-bg.png'); */
-  background-size: 100%;
-  background-color: bisque;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15%;
-  top: 4.6rem;
+/* slide6 start */
+.slide6 .content-show .img-container>img{
   width: 70%;
-  height: fit-content;
-  line-height: 1rem;
-  font-size: .4rem;
-  text-align: center;
-
+  margin-top: .6rem;
 }
+/* slide6 end */
 
-.slide11 .content-text .content-1 c4 {
-  /* background-image: url('../images/title-text-bg.png'); */
-  background-size: 100%;
-  background-color: bisque;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15%;
-  top: 5.4rem;
-  width: 70%;
-  height: fit-content;
-  line-height: 1rem;
-  font-size: .4rem;
-  text-align: center;
-
+/* slide8 start */
+.slide8 .content-show .img-container>img{
+  width: 90%;
+  margin-top: 2rem;
 }
+/* slide8 end */
 
-.slide11 .content-text .content-1 c5 {
-  /* background-image: url('../images/title-text-bg.png'); */
-  background-size: 100%;
-  background-color: bisque;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15%;
-  top: 6.2rem;
-  width: 70%;
-  height: fit-content;
-  line-height: 1rem;
-  font-size: .4rem;
-  text-align: center;
-
+/* slide9 start */
+.slide9 .content-show .img-container>img{
+  width: 74%;
+  /* margin-top: .4rem; */
 }
+/* slide9 end */
 
-.slide11 .content-text .content-1 c6 {
-  /* background-image: url('../images/title-text-bg.png'); */
-  background-size: 100%;
-  background-color: bisque;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15%;
-  top: 7rem;
-  width: 70%;
-  height: fit-content;
-  line-height: 1rem;
-  font-size: .4rem;
+/* slide10 start */
+.slide10 .content-show .img-container>img{
+  width: 74%;
+  /* margin-top: .4rem; */
+}
+/* slide10 end */
+
+/* slide11 start */
+.slide11 .content-show .img-container>img{
+  width: 110%;
+  /* margin-top: .4rem; */
+}
+/* slide11 end */
+
+/* slide12 start */
+.slide12 .content-show .img-container>img{
+  width: 110%;
+  /* margin-top: .4rem; */
+}
+/* slide12 end */
+
+/* slide13 start */
+.slide13 .content-show .img-container>img{
+  width: 100%;
+  margin-top: 1rem;
+}
+/* slide13 end */
+
+/* slide14 start */
+.slide14 .content-show .img-container>img{
+  width: 100%;
+  margin-top: 1rem;
+}
+/* slide14 end */
+
+/* slide15 start */
+.slide15 .content-show .img-container>img{
+  width: 100%;
+  margin-top: .4rem;
+}
+/* slide15 end */
+
+/* slide16 start */
+.slide16 .content-show {
   text-align: center;
 }
-
-.slide11 .content-text .content-1 c7 {
-  /* background-image: url('../images/title-text-bg.png'); */
-  background-size: 100%;
-  background-color: bisque;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15%;
-  top: 7.8rem;
-  width: 70%;
-  height: fit-content;
-  line-height: 1rem;
-  font-size: .4rem;
-  text-align: center;
-
+.slide16 .content-container {
+  background-color: #DAE6F5;
+  border: 2px dashed #4784D1;
+  border-radius: 1rem;
+  padding: .5rem .2rem 0 .2rem;
+  margin-top: 1rem;
 }
-
-.slide11 .content-text .content-1 c8 {
-  /* background-image: url('../images/title-text-bg.png'); */
-  background-size: 100%;
-  background-color: bisque;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15%;
-  top: 8.6rem;
-  width: 70%;
-  height: fit-content;
-  line-height: 1rem;
-  font-size: .4rem;
-  text-align: center;
-
+.slide16 .content-container div {
+  margin-bottom: .5rem;
 }
-
-.slide11 .content-text .content-1 c9 {
-  /* background-image: url('../images/title-text-bg.png'); */
-  background-size: 100%;
-  background-color: bisque;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 15%;
-  top: 9.4rem;
-  width: 70%;
-  height: fit-content;
-  line-height: 1rem;
+.slide16 .content-container p {
   font-size: .4rem;
-  text-align: center;
-
 }
-
-
-/* slide11 目录 end */
+/* slide16 end */
